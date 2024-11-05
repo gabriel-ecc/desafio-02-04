@@ -8,7 +8,11 @@
     --color5:#F6EFBD; /*busqueda*/
     --color6:#FFF4B7;
     --color7:#006A67;
+    --color7-1:#3B1C32;
+    --color7-2:#1A1A1D;
     --color8:#003161;
+    --color8-1:#002999;
+    --color8-2:hsl(210, 5%, 30%);
 }
 *{
     padding: 0;
@@ -170,14 +174,14 @@ a,ul,li{
 
 @keyframes cambioAutorFondo {
     0% { background-color: var(--color7); } 
-    50% { background-color: #3B1C32; } 
-    100% { background-color: #1A1A1D; } 
+    50% { background-color: var(--color7-1); } 
+    100% { background-color: var(--color7-2); } 
 }
 
 @keyframes cambioPropositoFondo {
     0% { background-color: var(--color8); } 
-    50% { background-color: #536493; } 
-    100% { background-color: #003161; } 
+    50% { background-color: var(--color8-1); } 
+    100% { background-color: var(--color8-2); } 
 }
 
 @media screen and (width >= 375px) {
