@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -99,8 +100,6 @@ a,ul,li{
     "header"
     "main"
     "footer";
-    transition: all 1s ease;
-
 }
 
 .galeria{
@@ -202,7 +201,6 @@ a,ul,li{
         grid-template-areas: 
         "header main"
         "footer main";
-        transition: all 1s ease;
     }
 
     .header{
